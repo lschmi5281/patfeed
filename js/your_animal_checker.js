@@ -54,36 +54,42 @@ function checkIt() {
     title = "We Can Guess Which Animal You Are";
     message = "You are a sloth.";
     text = "You love eating and just chilling.  You value you time.";
+    resultimage = "<img src= 'img/sloth.jpg'>"
   }
 
   else if (max == Kitten) {
     title = "We Can Guess Which Animal You Are";
     message = "You are a kitten.";
     text = "You love to take naps and cuddle up.  You are a light-hearted person.";
+    resultimage = "<img src= 'img/kitten.jpg'>"
   }
 
   else if (max == Bear) {
     title = "We Can Guess Which Animal You Are";
     message = "You are a bear.";
     text = "You eat a good amount of food and live day by day." ;
+    resultimage = "<img src= 'img/bear1.jpg'>"
   }
 
   else if (max == Cheetah) {
     title = "We Can Guess Which Animal You Are";
     message = "You are a cheetah.";
     text = "You are fast and lean.  You love running and you're fast too!";
+    resultimage = "<img src= 'img/cheetah.jpg'>"
   }
 
   else if (max == Dog) {
     title = "We Can Guess Which Animal You Are";
     message = "You are a dog.";
     text = "You like being around people and hanging out.";
+    resultimage = "<img src= 'img/dog.jpg'>"
   }
 
   else if (max == Pig) {
     title = "We Can Guess Which Animal You Are";
     message = "You are a pig.";
     text = "You love eating like it is a sport.  You like getting in the mud and playing too.";
+    resultimage = "<img src= 'img/pig.jpg'>"
   }
 
 
@@ -92,4 +98,5 @@ function checkIt() {
   document.getElementById('result-title').innerHTML = title;
   document.getElementById('result-heading').innerHTML = message;
   document.getElementById('result-text').innerHTML = text;
+  document.getElementById('result-image').innerHTML = resultimage;
 }
